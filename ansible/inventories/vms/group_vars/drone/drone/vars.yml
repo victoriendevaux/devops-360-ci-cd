@@ -1,0 +1,8 @@
+drone_host: tp112.ccm.u13.org
+drone_admin:
+  - Loowess
+  - victoriendevaux
+  
+drone_auth_client: "{{ vault_drone_oauth_client }}"
+drone_auth_secret: "{{ vault_drone_oauth_secret }}"
+
