@@ -1,0 +1,15 @@
+---
+
+libvirt_dns_server: 172.16.112.254
+libvirt_ip_prefix: '172.16.112'
+libvirt_dns_zone: dell112.u13.org
+
+libvirt_vms:
+  drone:
+    cpu: 1
+    mem: 768
+    ip: "{{ libvirt_ip_prefix }}.66"
+  nodejs:
+    cpu: 1
+    mem: 768
+    ip: "{{ libvirt_ip_prefix }}.67"
